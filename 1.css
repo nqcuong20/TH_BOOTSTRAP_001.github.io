@@ -49,7 +49,7 @@ a:hover.btn.btn-outline-light.mautrang{
     position: absolute;
     left: 50%;
     bottom: 0;
-    margin-left: -50px; /*Ã„â€˜Ã¡Â»Æ’ cÃƒÂ¡ch gÃ¡ÂºÂ¡ch nÃƒÂ³ Ã¡Â»Å¸ giÃ¡Â»Â¯a thÃƒÂ¬ khi canh left 50% thÃƒÂ¬ nÃƒÂ³ lÃ¡Â»â€¡ch sang trÃƒÂ¡i nhÃ†Â°ng muÃ¡Â»â€˜n Ã¡Â»Å¸ giÃ¡Â»Â¯a thÃƒÂ¬ cho 1 nÃ¡Â»Â­a cÃ¡Â»Â§a nÃƒÂ³ lÃƒÂ  -50 chiÃ¡ÂºÂ¿m 1/2 width*/
+    margin-left: -50px; /*ÃƒÆ’Ã¢â‚¬Å¾ÃƒÂ¢Ã¢â€šÂ¬Ã‹Å“ÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚Â»Ãƒâ€ Ã¢â‚¬â„¢ cÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¡ch gÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚ÂºÃƒâ€šÃ‚Â¡ch nÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â³ ÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚Â»Ãƒâ€¦Ã‚Â¸ giÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚Â»Ãƒâ€šÃ‚Â¯a thÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¬ khi canh left 50% thÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¬ nÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â³ lÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚Â»ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡ch sang trÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¡i nhÃƒÆ’Ã¢â‚¬Â Ãƒâ€šÃ‚Â°ng muÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚Â»ÃƒÂ¢Ã¢â€šÂ¬Ã‹Å“n ÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚Â»Ãƒâ€¦Ã‚Â¸ giÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚Â»Ãƒâ€šÃ‚Â¯a thÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¬ cho 1 nÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚Â»Ãƒâ€šÃ‚Â­a cÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚Â»Ãƒâ€šÃ‚Â§a nÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â³ lÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â  -50 chiÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚ÂºÃƒâ€šÃ‚Â¿m 1/2 width*/
 }
 
 ul.menutren li a{
@@ -63,6 +63,26 @@ div.text_small{
 @media (max-width: 576px)
 {
     *{}
+
+.col-xs-7.align-self-baseline.text_small {
+    width: 414px !important;
+}
+
+body {
+    width: 414px !important;
+}
+
+.col-sm-4 {
+    width: 429px !important;
+}
+
+.row.align-items-center.justify-content-center.text-center {width: 414px !important;}
+    .top {
+        width: 414px;
+    }
+    .widthrespon {
+        width: 414px;
+    }
 
 ul.navbar-nav.ml-auto.mt-2.mt-lg-0.font-weight-bold.menutren li a {
     color: orangered;
@@ -86,7 +106,7 @@ h2.text-center.title_big.tdnd3.py-4.style_nd3 {
 }
 
 p.text-white-75.mb-5.text-white {
-    width: 421px;
+    width: 414px;
 }
 
 .col-9 {
@@ -96,15 +116,16 @@ p.text-white-75.mb-5.text-white {
 .col-9 {
     width: 100% !important;
     max-width: 100% !important;
+    padding: 0 !important;
 }
 
 h1.text-white.font-weight-bold.pb-4.mb-4.title_big {
-    width: 482px !important;
+    width: 414px !important;
     font-size: 36px;
     line-height: 44px !important;
     padding: 0px 0 27px 0px  !important;
     text-align: center !important;
-    margin: 38% 0 34px 1px !important;
+    margin: 38% 0 34px 0px !important;
 }
 
     a.navbar-brand.font-weight-bold {
@@ -215,13 +236,13 @@ section.noidung3 i.fas {
     font-family: segoe ui bold;
     
 }
-/* khoáº£ng cÃ¡ch giá»¯a cÃ¡c cá»™t vá» khÃ´ng */
-/* muá»‘n táº¥t cáº£ cÃ¡c col khÃ´ng cáº§n col-4 hay col-3 */
-.noidung4 [class^=col] /*cÃ¢u lá»‡nh cÃ³ nghÄ©a lÃ  class ^= báº¯t Ä‘áº§u tá»« col */
+/* khoÃƒÂ¡Ã‚ÂºÃ‚Â£ng cÃƒÆ’Ã‚Â¡ch giÃƒÂ¡Ã‚Â»Ã‚Â¯a cÃƒÆ’Ã‚Â¡c cÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢t vÃƒÂ¡Ã‚Â»Ã‚Â khÃƒÆ’Ã‚Â´ng */
+/* muÃƒÂ¡Ã‚Â»Ã¢â‚¬Ëœn tÃƒÂ¡Ã‚ÂºÃ‚Â¥t cÃƒÂ¡Ã‚ÂºÃ‚Â£ cÃƒÆ’Ã‚Â¡c col khÃƒÆ’Ã‚Â´ng cÃƒÂ¡Ã‚ÂºÃ‚Â§n col-4 hay col-3 */
+.noidung4 [class^=col] /*cÃƒÆ’Ã‚Â¢u lÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡nh cÃƒÆ’Ã‚Â³ nghÃƒâ€žÃ‚Â©a lÃƒÆ’Ã‚Â  class ^= bÃƒÂ¡Ã‚ÂºÃ‚Â¯t Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚ÂºÃ‚Â§u tÃƒÂ¡Ã‚Â»Ã‚Â« col */
 {
     padding:0px;
 }
-/* hoáº·c dÃ¹ng cÃ¡i á»Ÿ dÆ°á»›i */
+/* hoÃƒÂ¡Ã‚ÂºÃ‚Â·c dÃƒÆ’Ã‚Â¹ng cÃƒÆ’Ã‚Â¡i ÃƒÂ¡Ã‚Â»Ã…Â¸ dÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã¢â‚¬Âºi */
 /* .noidung4 .col-sm-4{
     padding: 0 !important ;
 } */
@@ -266,7 +287,4 @@ a.logo.maucam{
 }
 .nentrang{
     background-color: white;
-}
-i.fas.fa-4x {
-    margin-bottom: 22px;
 }
